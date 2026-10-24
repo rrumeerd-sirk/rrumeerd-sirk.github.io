@@ -1,14 +1,14 @@
 :root {
-  --bg: #050505;
-  --panel: #111111;
+  --bg: #080808;
+  --panel: #121212;
   --panel-border: rgba(255, 255, 255, 0.08);
   --text: #f5f5f5;
-  --muted: #cfcfcf;
-  --accent: #d10000;
-  --accent-hover: #ff1f1f;
-  --button: #171717;
-  --button-hover: #220b0b;
-  --shadow: rgba(0, 0, 0, 0.35);
+  --muted: #d9d9d9;
+  --accent: #d42626;
+  --accent-hover: #f15353;
+  --button: #1a1a1a;
+  --button-hover: #2b1717;
+  --shadow: rgba(0, 0, 0, 0.45);
 }
 
 * {
@@ -103,7 +103,7 @@ a {
 a:hover {
   transform: translateY(-1px);
   background: var(--button-hover);
-  border-color: rgba(209, 0, 0, 0.7);
+  border-color: rgba(212, 38, 38, 0.7);
 }
 
 .primary-btn {
